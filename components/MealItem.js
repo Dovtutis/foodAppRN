@@ -7,6 +7,8 @@ import {
   ImageBackground,
 } from "react-native";
 
+import DefaultText from './DefaultText';
+
 const MealItem = (props) => {
   return (
     <View style={styles.mealItem}>
@@ -25,9 +27,9 @@ const MealItem = (props) => {
             </ImageBackground>
           </View>
           <View style={{ ...styles.mealRow, ...styles.mealDetail }}>
-            <Text style={styles.descriptionText}>Duration: {props.duration}m.</Text>
-            <Text style={styles.descriptionText}>Complexity: {props.complexity}</Text>
-            <Text style={styles.descriptionText}>Affordability: {props.affordability}</Text>
+            <DefaultText>Duration: {props.duration}m.</DefaultText>
+            <DefaultText>Complexity: {props.complexity}</DefaultText>
+            <DefaultText>Affordability: {props.affordability}</DefaultText>
           </View>
         </View>
       </TouchableOpacity>
@@ -72,10 +74,6 @@ const styles = StyleSheet.create({
     color: "white",
     textAlign: "center",
   },
-  descriptionText: {
-      fontSize: 11,
-      fontFamily: "open-sans-bold",
-  }
 });
 
 export default MealItem;
