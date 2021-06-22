@@ -1,6 +1,6 @@
 # React Native Meals Application.
 
-REACT Native Food App is a single application where you can browse through different food receipes, select them by different categories and add them to favorites. This task was from Udemy REACT Native course. It was created by using React Native (Expo).
+In this meals application user can browse through different food receipes, select them by different categories and add them to favorites. This task was from Udemy REACT Native course. It was created by using React Native (Expo).
 
 Tasks and funcionalities which were accomplished/used in this project:
 - Usage of variable React Native components, like: Text, View, TextInput, Button, FlatList, ScrollView, Image, StyleSheet.
